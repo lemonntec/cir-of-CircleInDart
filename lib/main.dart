@@ -1,12 +1,27 @@
+/*
+A PROGRAM
+This Program is used to calculate the Circumference of a circle
+Author- Matthew Miracle Chinedum
+*/
+
 import 'dart:io';
 
 void main() {
+  print('*******************************************************************');
+  print('*********************CIRCUMFERENCE A CIRCLE************************');
+  print(
+      '********************Matthew Miracle Chinedum***********************\n');
+  print('What is your name?:  ');
+  var name = stdin.readLineSync();
+  print('');
+  print('Welcome $name');
+
   print('CIRCUMFERENCE OF A CIRCLE');
   print(circle_conference());
 }
 
 circle_conference() {
-  print('formular for Circle is: 2*3.142*radius');
+  print('formular for Circumference of a Circle is: 2*3.142*radius\n');
   print('Enter your Radius');
   var r = int.parse(stdin.readLineSync()!);
   const pi = 22 / 7;
